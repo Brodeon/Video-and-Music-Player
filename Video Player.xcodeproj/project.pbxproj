@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014C08D6223EC44B00E2382A /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C08D5223EC44B00E2382A /* MusicPlayerViewController.swift */; };
+		014C08D9223ED1EF00E2382A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 014C08D7223EC55A00E2382A /* music.mp3 */; };
 		0168E55722340F3A00E29120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E55622340F3A00E29120 /* AppDelegate.swift */; };
 		0168E55922340F3A00E29120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E55822340F3A00E29120 /* ViewController.swift */; };
 		0168E55C22340F3A00E29120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0168E55A22340F3A00E29120 /* Main.storyboard */; };
 		0168E55E22340F3C00E29120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0168E55D22340F3C00E29120 /* Assets.xcassets */; };
 		0168E56122340F3C00E29120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0168E55F22340F3C00E29120 /* LaunchScreen.storyboard */; };
+		0168E5692234108D00E29120 /* BuiltInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E5682234108D00E29120 /* BuiltInViewController.swift */; };
+		0168E56B2234120700E29120 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E56A2234120700E29120 /* Movie.swift */; };
+		0168E56D2234144D00E29120 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E56C2234144D00E29120 /* PlayerView.swift */; };
+		0168E56F2234188800E29120 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E56E2234188800E29120 /* VideoCell.swift */; };
+		0168E57122341ADE00E29120 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E57022341ADE00E29120 /* MovieModel.swift */; };
+		0168E57522341E5000E29120 /* fall.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0168E57422341E5000E29120 /* fall.mov */; };
+		0168E57722342B7D00E29120 /* AVPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168E57622342B7D00E29120 /* AVPlayerExtension.swift */; };
+		01831AB6223EB9E600C30C1B /* ReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01831AB5223EB9E600C30C1B /* ReadyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014C08D5223EC44B00E2382A /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		014C08D7223EC55A00E2382A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		0168E55322340F3A00E29120 /* Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0168E55622340F3A00E29120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0168E55822340F3A00E29120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,14 @@
 		0168E55D22340F3C00E29120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0168E56022340F3C00E29120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0168E56222340F3C00E29120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0168E5682234108D00E29120 /* BuiltInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInViewController.swift; sourceTree = "<group>"; };
+		0168E56A2234120700E29120 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0168E56C2234144D00E29120 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		0168E56E2234188800E29120 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		0168E57022341ADE00E29120 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		0168E57422341E5000E29120 /* fall.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = fall.mov; sourceTree = "<group>"; };
+		0168E57622342B7D00E29120 /* AVPlayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerExtension.swift; sourceTree = "<group>"; };
+		01831AB5223EB9E600C30C1B /* ReadyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		0168E55522340F3A00E29120 /* Video Player */ = {
 			isa = PBXGroup;
 			children = (
+				0168E57222341E2500E29120 /* Movies */,
 				0168E55622340F3A00E29120 /* AppDelegate.swift */,
 				0168E55822340F3A00E29120 /* ViewController.swift */,
 				0168E55A22340F3A00E29120 /* Main.storyboard */,
 				0168E55D22340F3C00E29120 /* Assets.xcassets */,
 				0168E55F22340F3C00E29120 /* LaunchScreen.storyboard */,
 				0168E56222340F3C00E29120 /* Info.plist */,
+				0168E5682234108D00E29120 /* BuiltInViewController.swift */,
+				0168E56A2234120700E29120 /* Movie.swift */,
+				0168E56C2234144D00E29120 /* PlayerView.swift */,
+				0168E56E2234188800E29120 /* VideoCell.swift */,
+				0168E57022341ADE00E29120 /* MovieModel.swift */,
+				0168E57622342B7D00E29120 /* AVPlayerExtension.swift */,
+				01831AB5223EB9E600C30C1B /* ReadyViewController.swift */,
+				014C08D5223EC44B00E2382A /* MusicPlayerViewController.swift */,
 			);
 			path = "Video Player";
+			sourceTree = "<group>";
+		};
+		0168E57222341E2500E29120 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				014C08D7223EC55A00E2382A /* music.mp3 */,
+				0168E57422341E5000E29120 /* fall.mov */,
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +134,11 @@
 				TargetAttributes = {
 					0168E55222340F3A00E29120 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,7 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014C08D9223ED1EF00E2382A /* music.mp3 in Resources */,
 				0168E56122340F3C00E29120 /* LaunchScreen.storyboard in Resources */,
+				0168E57522341E5000E29120 /* fall.mov in Resources */,
 				0168E55E22340F3C00E29120 /* Assets.xcassets in Resources */,
 				0168E55C22340F3A00E29120 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0168E57122341ADE00E29120 /* MovieModel.swift in Sources */,
+				0168E5692234108D00E29120 /* BuiltInViewController.swift in Sources */,
 				0168E55922340F3A00E29120 /* ViewController.swift in Sources */,
+				0168E57722342B7D00E29120 /* AVPlayerExtension.swift in Sources */,
+				01831AB6223EB9E600C30C1B /* ReadyViewController.swift in Sources */,
+				0168E56B2234120700E29120 /* Movie.swift in Sources */,
+				0168E56D2234144D00E29120 /* PlayerView.swift in Sources */,
+				014C08D6223EC44B00E2382A /* MusicPlayerViewController.swift in Sources */,
 				0168E55722340F3A00E29120 /* AppDelegate.swift in Sources */,
+				0168E56F2234188800E29120 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
